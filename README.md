@@ -1,3 +1,5 @@
+Please find code as plot1.R, plot2.R, plot3.R and plot4.R for respective plots plot1, plot2, plot3 and plot4
+
 ## Introduction
 
 This assignment uses data from

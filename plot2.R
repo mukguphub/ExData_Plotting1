@@ -12,3 +12,4 @@ plot(data$Time,data[,3], type="l", ylab="Global Active Power (kilowatts)", xlab=
 dev.off()
 
 
+
