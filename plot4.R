@@ -5,7 +5,9 @@ data <- data[data$Date %in% as.Date(c('2007-02-01',' 2007-02-02')),]
 data$Time <- paste(data$Date,data$Time,sep=" ")
 data$Time <- as.POSIXct(data$Time,"%Y-%m-%d %H:%M:%S", tz="GMT") 
 
+#Plot on png file
 png("plot4.png",width = 480,height = 480,units = "px",bg="transparent")
+
 par(mfrow=c(2,2))
 
 plot(data$Time,data[,3], type="l", ylab="Global Active Power (kilowatts)", xlab="")
